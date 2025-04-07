@@ -11,10 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  build: {
-    outDir: 'dist', // Ensure this matches the publish directory in netlify.toml
-  },
-  server: {
-    open: true, // Automatically open the browser on server start
-  },
+ base: "./"
 })
